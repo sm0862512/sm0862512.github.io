@@ -1,0 +1,117 @@
+.headding {
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+  list-style-type: none;
+
+  margin: 0;
+
+  padding: 0;
+}
+
+body {
+  background-color: #2dd295;
+}
+
+.farm {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.info {
+  background-color: green;
+  text-align: center;
+  padding: 1%;
+  background-image: url("land.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.food {
+  text-align: center;
+}
+.types-of-food {
+  justify-content: center;
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.types-of-food > div {
+  background-color: greenyellow;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 20px;
+  padding: 5%;
+}
+
+.apples {
+  background-image: url("apples.jpg");
+  background-size: cover;
+}
+
+.Pumpkins {
+  background-image: url("Pumpkins.jpg");
+  background-size: cover;
+  object-fit: contain;
+}
+
+.oranges {
+  background-image: url("Oranges.jpg");
+  background-size: cover;
+  object-fit: contain;
+}
+
+.fire {
+  background-image: url(canon.jpg);
+  background-size: cover;
+  background-color: DodgerBlue;
+  padding: 20%;
+}
+
+.blueberries {
+  background-image: url(blueberries.jpg);
+  background-size: cover;
+}
+
+.box {
+  background-color: orange;
+}
+
+footer {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+form {
+  text-align: center;
+  opacity: 0.9;
+  border: 15px solid grey;
+  margin: 200px;
+  background-image: url(ofarm.jpg);
+  background-size: cover;
+  padding: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 601px) {
+  /* For desktop: */
+  body {
+    text-align: left;
+    font-size: 30px;
+  }
+  .types-of-food {
+    flex-direction: column;
+  }
+}

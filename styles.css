@@ -1,0 +1,64 @@
+.photo{
+    max-width: 32mm;
+    position:absolute;
+    top:5cm;
+    left: 3cm;
+    border: 1px solid rgb(0, 195, 255);
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+body{ 
+    background-color: cadetblue;
+}
+.name{
+    position: absolute;
+    top: 9cm;
+    left: 3cm;
+    border: 3px solid rgb(0, 195, 255);
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+.post{
+    background-color: white;
+    padding-right: 15cm;
+    position: absolute;
+    left: 10cm;
+    top: 51mm;
+    text-align: center;
+}
+
+.info{
+    list-style: none;
+    position:absolute;
+    top: 103mm;
+    left: 19mm;
+}
+.nav{    
+list-style: none;
+position:absolute;
+top: 40mm;
+left: 160mm;}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+    padding-left: 12cm;
+    
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+.projects2{
+    padding-left: 15cm;
+}
+.projects{
+    padding-left: 15cm;
+}

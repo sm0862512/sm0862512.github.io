@@ -1,0 +1,55 @@
+#container {
+  width: 1383px;
+  height: 280px;
+  position: relative;
+  background: rgb(0, 255, 179);
+}
+#animate {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+#animate2 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+
+
+}
+
+
+body{
+background-repeat:no-repeat;
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+
+}
+
+#car1{
+    width: 14%;
+  height: auto;
+  position: absolute;
+  top: 5mm;
+  left: 0;
+  
+}
+
+#car2{
+    width: 15%;
+    height: auto;
+    position: absolute;
+    top: 40mm;
+    left: 0;
+}
+
+#end{
+  width: 15px;
+  height: 280px;
+  position: relative;
+  background-color: black;
+  top: -80mm;
+  left: 1382px;
+}
