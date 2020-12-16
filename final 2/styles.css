@@ -1,0 +1,127 @@
+.author {
+  padding-right: 10px;
+}
+/* name: shanemrad Date:10/20/2020 */
+.tweet {
+  padding-left: 35%;
+  border-style: solid;
+  border-color: green;
+}
+.person1 {
+  border-radius: 25px;
+  background: #73ad21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+.person2 {
+  border-radius: 10px;
+  background: #73ad21;
+
+  width: 30px;
+  height: 20px;
+}
+.reply {
+  padding-left: 35%;
+  border-style: solid;
+  border-color: green;
+}
+
+body {
+  background-color: lightblue;
+}
+.user-img {
+  width: 100px;
+  float: right;
+  top: 435px;
+  right: 950px;
+  height: 100px;
+  border: 3px solid #73ad21;
+}
+
+.author-img {
+  width: 100px;
+  position: static;
+  top: 190px;
+  right: 950px;
+  height: 100px;
+  border: 3px solid #73ad21;
+}
+.user-img1 {
+  width: 100px;
+  position: absolute;
+  top: 180px;
+  right: 950px;
+  height: 100px;
+  border: 3px solid #73ad21;
+}
+
+.author-img1 {
+  width: 100px;
+  position: absolute;
+  top: 10px;
+  right: 950px;
+  height: 50px;
+  border: 3px solid #73ad21;
+}
+
+.info1 {
+  position: relative;
+  left: -100px;
+  border: 1px solid rgb(243, 7, 7);
+}
+.nav {
+  text-align: center;
+}
+
+.twitter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+.user1 {
+  text-shadow: 5px 5px 5px blue;
+}
+
+.bio {
+  text-size-adjust: 80%;
+}
+
+#div1 {
+  opacity: 0.7;
+}
+#div2 {
+  opacity: 1;
+}
+.user2 {
+  text-shadow: 5px 5px 5px green;
+}
+
+.bio-chat {
+  color: blue;
+}
+
+.bio-chat2 {
+  color: blue;
+}
+
+footer {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: green;
+}
+
+#talk {
+  border-color: lawngreen;
+  border: 3px solid greenyellow;
+}
+
+.user {
+  float: right;
+}

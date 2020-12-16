@@ -10,6 +10,7 @@
 }
 body{ 
     background-color: cadetblue;
+    padding-bottom: 10cm;
 }
 .name{
     position: absolute;
@@ -27,6 +28,7 @@ body{
     left: 10cm;
     top: 51mm;
     text-align: center;
+    
 }
 
 .info{
