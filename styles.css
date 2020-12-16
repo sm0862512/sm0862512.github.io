@@ -37,6 +37,7 @@ body{
 .info{
     list-style: none;
     position:absolute;
+    border: 3px solid rgb(0, 195, 255);
     top: 103mm;
     left: 19mm;
 }
